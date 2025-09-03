@@ -13,6 +13,7 @@ public class ChatMessage {
 
     private String role;
 
+    @Column(length = 2000)
     private String content;
 
     private String date;
